@@ -1,139 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.3">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  <meta charset="UTF-8">
+  <title>For Diya 💖</title>
+
+  <style>
+    body {
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
+
+    .box {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      width: 350px;
+    }
+
+    h1 {
+      color: #ff4d6d;
+    }
+
+    button {
+      padding: 12px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    #yes {
+      background-color: #ff4d6d;
+      color: white;
+      margin-right: 20px;
+    }
+
+    #no {
+      background-color: #999;
+      position: absolute;
+    }
+
+    .buttons {
+      margin-top: 30px;
+      position: relative;
+      height: 150px;
+    }
+
+    #message {
+      margin-top: 20px;
+      color: #ff4d6d;
+      font-weight: bold;
+      min-height: 24px;
+    }
   </style>
 </head>
+
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;For Diya 💖&lt;/title&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>height: 100vh;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>justify-content: center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: linear-gradient(135deg, #ff758c, #ff7eb3);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-family: Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>overflow: hidden;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>.box {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: white;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 40px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 10px 30px rgba(0,0,0,0.2);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>width: 350px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>h1 {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: #ff4d6d;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>button {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 12px 25px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 18px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border: none;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>#yes {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background-color: #ff4d6d;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: white;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-right: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>#no {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background-color: #999;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>position: absolute;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>.buttons {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 30px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>position: relative;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>height: 150px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>#message {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: #ff4d6d;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>min-height: 24px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="box"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Diya 💕&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Will you be my Valentine? 🌹&lt;/h2&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="buttons"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;button id="yes" onclick="yesClicked()"&gt;Yes 💘&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;button id="no"&gt;No 🙃&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="message"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>const noBtn = document.getElementById("no");</p>
-<p class="p1"><span class="Apple-converted-space">    </span>const msg = document.getElementById("message");</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>const messages = [</p>
-<p class="p1"><span class="Apple-converted-space">      </span>"Hey! That was close 😆",</p>
-<p class="p1"><span class="Apple-converted-space">      </span>"Nice try 😜",</p>
-<p class="p1"><span class="Apple-converted-space">      </span>"Nope, not allowed 😂",</p>
-<p class="p1"><span class="Apple-converted-space">      </span>"You know you want to click Yes 💕",</p>
-<p class="p1"><span class="Apple-converted-space">      </span>"Why you running from love? 😏",</p>
-<p class="p1"><span class="Apple-converted-space">      </span>"Haha! Caught you trying 😌"</p>
-<p class="p1"><span class="Apple-converted-space">    </span>];</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>noBtn.addEventListener("mouseover", () =&gt; {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>const x = Math.random() * 250;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>const y = Math.random() * 100;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>noBtn.style.left = x + "px";</p>
-<p class="p1"><span class="Apple-converted-space">      </span>noBtn.style.top = y + "px";</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>const randomMsg = messages[Math.floor(Math.random() * messages.length)];</p>
-<p class="p1"><span class="Apple-converted-space">      </span>msg.textContent = randomMsg;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>});</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>function yesClicked() {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>document.body.innerHTML = `</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div style="</p>
-<p class="p1"><span class="Apple-converted-space">          </span>height:100vh;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>display:flex;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>flex-direction:column;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>justify-content:center;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>align-items:center;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>background:linear-gradient(135deg,#ff758c,#ff7eb3);</p>
-<p class="p1"><span class="Apple-converted-space">          </span>color:white;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>text-align:center;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;h1&gt;YAYYYY 💖&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;h2&gt;You just made me the happiest 🥰&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;Happy Valentine’s Day, Diya 🌹&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>`;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+
+  <div class="box">
+    <h1>Diya 💕</h1>
+    <h2>Will you be my Valentine? 🌹</h2>
+
+    <div class="buttons">
+      <button id="yes" onclick="yesClicked()">Yes 💘</button>
+      <button id="no">No 🙃</button>
+    </div>
+
+    <div id="message"></div>
+  </div>
+
+  <script>
+    const noBtn = document.getElementById("no");
+    const msg = document.getElementById("message");
+
+    const messages = [
+      "Hey! That was close 😆",
+      "Nice try 😜",
+      "Nope, not allowed 😂",
+      "You know you want to click Yes 💕",
+      "Why you running from love? 😏",
+      "Haha! Caught you trying 😌"
+    ];
+
+    noBtn.addEventListener("mouseover", () => {
+      const x = Math.random() * 250;
+      const y = Math.random() * 100;
+      noBtn.style.left = x + "px";
+      noBtn.style.top = y + "px";
+
+      const randomMsg = messages[Math.floor(Math.random() * messages.length)];
+      msg.textContent = randomMsg;
+    });
+
+    function yesClicked() {
+      document.body.innerHTML = `
+        <div style="
+          height:100vh;
+          display:flex;
+          flex-direction:column;
+          justify-content:center;
+          align-items:center;
+          background:linear-gradient(135deg,#ff758c,#ff7eb3);
+          color:white;
+          text-align:center;">
+          <h1>YAYYYY 💖</h1>
+          <h2>You just made me the happiest 🥰</h2>
+          <p>Happy Valentine’s Day, Diya 🌹</p>
+        </div>
+      `;
+    }
+  </script>
+
 </body>
 </html>
+
